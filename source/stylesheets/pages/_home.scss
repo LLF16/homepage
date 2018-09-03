@@ -29,7 +29,7 @@
   }
 }
 
-.intro {
+.wrapper-intro {
   background-color: gray;
   height: 100vh;
   h2 {
@@ -37,10 +37,26 @@
   }
 }
 
-.projects {
+.wrapper-projects {
   background-color: white;
   height: 100vh;
   h2 {
     margin-top: 0;
+  }
+}
+
+.row {
+
+}
+
+.project-card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  img {
+    height: 270px;
   }
 }
