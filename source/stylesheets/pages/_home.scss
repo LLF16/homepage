@@ -16,6 +16,7 @@
 //   }
 // }
 
+// HEY SECTION
 .banner {
   background-color: black;
   height: 100vh;
@@ -29,6 +30,8 @@
   }
 }
 
+
+// WHO'S THIS GUY SECTION
 .wrapper-intro {
   background-color: white;
   height: 100vh;
@@ -37,6 +40,8 @@
   }
 }
 
+
+// PROJECT SECTION
 .wrapper-projects {
   background-color: gray;
   height: 100vh;
@@ -74,6 +79,9 @@
   }
 }
 
+
+
+// CONTACT SECTION
 .wrapper-contact {
   background-color: white;
   height: 100vh;
@@ -81,11 +89,8 @@
     margin-top: 0;
   }
 }
-
-
-// CONTACT SECTION
-
 .contact-info {
+  text-align: center;
   height: 300px;
   padding: 0px 50px;
   align-items: center;
