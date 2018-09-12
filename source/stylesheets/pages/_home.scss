@@ -83,43 +83,28 @@
 }
 
 
+// CONTACT SECTION
 
-// // TYPE WRITER EFFECT
-
-
-
-
-
-
-// /* Google Fonts */
-// @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-// /* Global */
-// .line-1{
-//     width: 24em;
-//     margin: 0 auto;
-//     border-right: 2px solid rgba(255,255,255,.75);
-//     font-size: 180%;
-//     text-align: center;
-//     white-space: nowrap;
-//     overflow: hidden;
-//     // transform: translateY(-50%);
-// }
-
-// /* Animation */
-// .anim-typewriter{
-//   animation: typewriter 4s steps(17) 1s 1 normal both,
-//   blinkTextCursor 200ms steps(17) infinite normal;
-// }
-// @keyframes typewriter{
-//   from{width: 0;}
-//   to{width: 8em;}
-// }
-// @keyframes blinkTextCursor{
-//   from{border-right-color: rgba(255,255,255,.75);}
-//   to{border-right-color: transparent;}
-// }
-
+.contact-info {
+  height: 300px;
+  padding: 0px 50px;
+  align-items: center;
+}
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 80px;
+  padding: 0px 10px;
+}
+.contact-links a:hover {
+  opacity: 1;
+}
 
 // BATMAN DRAWING
 .batman {
